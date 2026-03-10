@@ -1,0 +1,94 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: lightcyan;
+}
+
+header {
+    background: lightskyblue;
+    width: auto;
+    padding: 2px 0 0 20px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.cabecalho {
+   width: auto;
+   text-align: center;
+}
+
+img {
+    margin: 10px 0 0 0;
+    position: relative;
+    right: 9.5em;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: auto;
+    position: relative;
+    left: 2em;
+    bottom: 4em;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.container-conteudo {
+    text-align: center;
+    line-height: 1em;
+    width: auto;
+}
+
+h2 {
+    font-weight: bold;
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+li p {
+    line-height: 2em;
+    text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.container-contato {
+    margin: 0 0 0 10px;
+    text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.videos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.video-esquerda,
+.video-direita{
+    width: 45%;
+}
+
+.video-esquerda video,
+.video-direita video{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
